@@ -39,10 +39,10 @@ int Age() {
 float BasalMetabolicRate(bool Weight,bool Height,char Gender,int Age) {  // Where all the calculations are made for BMR.
 	std::cout << "==SETTINGS==\n	AGE: " << Age;
 	if (Gender == 'm') {
-		std::cout << "\n	GENDER: MALE " << Gender << "\n";
+		std::cout << "\n	GENDER: MALE ";
 	}
 	else {
-		std::cout << "\n	GENDER: FEMALE " << Gender << "\n";
+		std::cout << "\n	GENDER: FEMALE ";
 	}
 	if (Height == 0) {
 		std::cout << "	HEIGHT: CM\n";
